@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .web .nav {
+            width: 80%;
+            background: red;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+        }
+
+        .web {
+            height: 80vh;
+            background: url(images/bg_header.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .web .title {
+            text-align: center;
+            padding: 100px 20px;
+            color: white;
+        }
+
+        .title h1 {
+            font-size: 70px;
+        }
+
+        .web .title .wedo {
+            color: red;
+        }
+
+        .web .title .slogan {
+            margin-bottom: 40px;
+        }
+
+        button {
+            background-color: red;
+            border: none;
+            height: 50px;
+            width: 200px;
+            color: white;
+        }
+
+        .logo {
+            width: 50%;
+        }
+
+        .logo img {
+            width: 200px;
+        }
+
+        .menu {
+            width: 50%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+
+        .menu ul {
+            display: flex;
+            list-style: none;
+           
+        }
+
+        .menu ul li a{
+            color: white;
+            margin-right: 20px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="web">
+        <div class="nav">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blog/News</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="title">
+            <h1>Think Big. <span class="wedo">We do.</span></h1>
+            <p class="slogan">Capitalise on low hanging fruit to identify a ballpark</p>
+            <button>OUR PORTFOLIO ></button>
+        </div>
+
+    </div>
+</body>
+
+</html>
